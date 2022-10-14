@@ -53,4 +53,4 @@ pred_moe = qt(1-alpha/2, n-2)*s*sqrt(1+1/n+(xstar-xbar)^2/Sxx)
 lines(xstar, ystar + pred_moe, col="blue")
 lines(xstar, ystar - pred_moe, col="blue")
 
-# why is prediciton interval wider than confidence interval (intuitively, without considering formula)?
+# why is prediction interval wider than confidence interval (intuitively, without considering formula)?
